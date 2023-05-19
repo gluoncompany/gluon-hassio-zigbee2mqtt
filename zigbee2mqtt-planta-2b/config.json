@@ -1,9 +1,9 @@
 {
-    "name": "Zigbee Cocinas",
+    "name": "Zigbee Planta 2B",
     "version": "0.2.0",
-    "slug": "zigbee_cocinas",
-    "description": "Proxy para la antena de las Cocinas",
-    "url": "https://github.com/gluoncompany/gluon-hassio-zigbee2mqtt/tree/master/zigbee2mqtt-cocinas",
+    "slug": "zigbee2mqtt_zigbee_planta_2b",
+    "description": "Proxy de la planta 2b",
+    "url": "https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/tree/master/zigbee2mqtt-planta-2b",
     "arch": [
       "aarch64",
       "amd64",
