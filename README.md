@@ -31,17 +31,8 @@
 3. The repository includes proxy plugins.
 4. Click on the addon and press **Install** and wait till the addon is installed.
 5. Click on **Configuration**
-    - If you are **not** using the Mosquitto broker addon fill in your MQTT details (leave empty when using the Mosquitto broker addon). Format can be found [here](https://www.zigbee2mqtt.io/guide/configuration/mqtt.html#server-connection), but skip the initial `mqtt:` indent. e.g.: <br>
-        ```yaml
-        server: mqtt://localhost:1883
-        user: my_user
-        password: my_password
-        ```
-    - Fill in the serial details (e.g. port of your USB coordinator). Format can be found [here](https://www.zigbee2mqtt.io/guide/configuration/adapter-settings.html#adapter-settings), but skip the initial `serial:` indent. e.g.: <br>
-        ```yaml
-        port: /dev/ttyUSB0
-        ```
-    - If you don't know the port and you have just one USB device connected to your machine try `/dev/ttyUSB0`. Else use the [Home Assistant CLI](https://www.home-assistant.io/common-tasks/os#home-assistant-via-the-command-line) and execute `ha hardware info` to find out. 
+    - `server` (required): this should be the local URL on which the Zigbee2MQTT frontend is running, e.g. `http://192.168.2.43:8080`. Make sure there is no trailing slash!
+    - `auth_token` (optional): only use when you have an `auth_token` set for the frontend in the Zigbee2MQTT configuration.
     - Click **Save**
     - **Tip:** it is possible to refer to variables in the Home Assistant `secrets.yaml` file (not the Zigbee2MQTT one!) by using e.g. `password: '!secret mqtt_pass'`
 1. Start the addon by going to **Info** and click **Start**
