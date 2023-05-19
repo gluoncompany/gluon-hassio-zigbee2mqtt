@@ -1,7 +1,7 @@
 {
-    "name": "Antena cocinas",
+    "name": "Zigbee Cocinas",
     "version": "0.2.0",
-    "slug": "Antena_cocinas",
+    "slug": "zigbee_cocinas",
     "description": "Proxy para la antena de las Cocinas",
     "url": "https://github.com/gluoncompany/gluon-hassio-zigbee2mqtt/tree/master/zigbee2mqtt-cocinas",
     "arch": [
