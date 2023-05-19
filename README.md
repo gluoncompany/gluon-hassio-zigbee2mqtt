@@ -34,7 +34,6 @@
     - `server` (required): this should be the local URL on which the Zigbee2MQTT frontend is running, e.g. `http://192.168.2.43:8080`. Make sure there is no trailing slash!
     - `auth_token` (optional): only use when you have an `auth_token` set for the frontend in the Zigbee2MQTT configuration.
     - Click **Save**
-    - **Tip:** it is possible to refer to variables in the Home Assistant `secrets.yaml` file (not the Zigbee2MQTT one!) by using e.g. `password: '!secret mqtt_pass'`
 1. Start the addon by going to **Info** and click **Start**
 1. Wait till Zigbee2MQTT starts and press **OPEN WEB UI** to verify Zigbee2MQTT started correctly.
     - If it shows `502: Bad Gateway` wait a bit more and refresh the page.
