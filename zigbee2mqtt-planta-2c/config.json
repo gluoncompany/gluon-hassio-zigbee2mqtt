@@ -1,9 +1,9 @@
 {
-    "name": "Zigbee Planta 1B",
+    "name": "Zigbee Planta 2C",
     "version": "0.2.0",
-    "slug": "zigbee2mqtt_zigbee_planta_1b",
-    "description": "Proxy de la planta 1b",
-    "url": "https://github.com/gluoncompany/gluon-hassio-zigbee2mqtt/tree/master/zigbee2mqtt-planta-1b",
+    "slug": "zigbee2mqtt_zigbee_planta_2c",
+    "description": "Proxy de la planta 2c",
+    "url": "https://github.com/gluoncompany/gluon-hassio-zigbee2mqtt/tree/master/zigbee2mqtt-planta-2c",
     "arch": [
       "aarch64",
       "amd64",
